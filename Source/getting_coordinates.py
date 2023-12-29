@@ -32,9 +32,9 @@ def generate_route_coordinates(start_address, end_address, interval_distance):
         return None
 
 # Create a route between two points at regular intervals
-start_point = "Appalachian Mountains, USA"
-end_point = "York County, USA"
-interval_distance_km = 10  # Specific interval distance (e.g. take one point every 10 km)
+start_point = "Harrisonburg, Virginia, USA"
+end_point = "Appalachian Mountains, USA" # Blue Ridge Dağları
+interval_distance_km = 0.5  # Specific interval distance (e.g. take one point every 0.5 km)
 
 route_coordinates = generate_route_coordinates(start_point, end_point, interval_distance_km)
 if route_coordinates:
